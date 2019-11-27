@@ -1,3 +1,19 @@
+body {
+	color: black;
+	background-color: white;
+	background-image: url(asset/images/v-bleu.jpg);
+}
+
+
+
+a, a:visited {
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover, a:focus {
+	color: #F00;
+}
 
 body {
 	margin: 0;
@@ -16,7 +32,8 @@ div.logo img {
 /*menu*/
 nav {
 	box-shadow: 0px 1px 11px brown;
-	border-radius: 20px
+	border-radius: 20px;
+	background-color: #fff;
 }
 nav ul {
 	list-style-type: none;
@@ -75,9 +92,39 @@ div.niv_3 {
 	border-style: dashed;
 	border-color: #C19908;
 	border-radius: 10px;
+	background-color: #fff;
 }
 
 p {
 	color: brown;
 	text-align: center;
+}
+
+/*footer*/
+footer {
+	box-shadow: 0px 1px 11px brown;
+	background-color: #fff;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 20px;
+	padding: 20px 100px 20px 100px;
+
+}
+
+
+footer .right {
+	position: absolute;
+	top: 0;
+	right: 300px;
+}
+
+ul.footer_links {
+	list-style-type: none;
+}
+
+ul.footer_links li {
+	display: inline-block;
+	padding: 4px 8px;
 }
