@@ -5,5 +5,8 @@ ul.niv_1 > li:hover ul.niv_2 {
 	display: block; 
 	a quoi ca sert ?
 
+en quoi est codé l'html et le css ? en html
+
+
 
 	
